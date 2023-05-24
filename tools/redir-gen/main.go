@@ -28,7 +28,7 @@ import (
 )
 
 var (
-	knativeOrgs   = []string{"knative", "knative-sandbox"}
+	knativeOrgs   = []string{"knative", "knative-extension"}
 	allowedRepoRe = regexp.MustCompile("^[a-z][-a-z0-9]+$")
 )
 
